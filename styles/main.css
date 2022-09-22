@@ -1,0 +1,23 @@
+body {
+    background-color: #7A89D2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    display: flex;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    justify-content: center;
+    align-items: center;
+}
+.right-side img{
+    width: 100%;
+}
+.right-side {
+    width: 50%;
+}
+.left-side {
+    width: 50%;
+}
